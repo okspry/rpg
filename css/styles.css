@@ -1,0 +1,101 @@
+/*********
+.dark-primary-color    { background: hsla(258, 58%, 42%, 1); }
+.default-primary-color { background: hsla(262, 52%, 47%, 1); }
+.light-primary-color   { background: hsla(261, 46%, 84%, 1); }
+.text-primary-color    { color: hsla(0, 100%, 100%, 1); }
+.accent-color          { background: hsla(199, 98%, 48%, 1); }
+.primary-text-color    { color: hsla(0, 0%, 13%, 1); }
+.secondary-text-color  { color: hsla(0, 0%, 45%, 1); }
+.divider-color         { border-color: hsla(0, 0%, 71%, 1); }
+**********/
+
+.container {
+	margin-top: 40px;
+}
+.navbar.navbar-default {
+	background: hsla(262, 52%, 47%, 1);
+}
+
+.inline {
+	display: inline;
+}
+.hidden {
+	display: none;
+}
+.displayed {
+	display: block;
+}
+
+.form-inline {
+	margin-top: 3px;
+}
+
+.bar {
+	fill: hsla(258, 58%, 42%, 1);
+}
+
+.patients-ticker, .total-patients {
+	fill: hsla(0, 0%, 13%, 1);
+	font-size: 23px;
+}
+.patients-ticker { font-weight: bold; }
+
+.patients-label {
+	font-size: 23px;
+}
+
+.criterion-patients-returned {
+	font-size: 18px;
+}
+
+.bottom-button {
+	margin-bottom: 10%;
+}
+
+.run-query-container {
+	width: 95%;
+	margin-left: 17px;
+	margin-top: 10px;
+	//border-bottom: 1px solid hsla(230, 0%, 90%, 1);
+}
+
+.criterion-number {
+	margin-right: 5px;
+	background: hsla(0, 0%, 0%, 0.1);
+	padding: 3px 5px;
+	border-radius: 2px;
+}
+.criterion, .joiner {
+	margin-bottom: 7px;
+	margin-top: -3px;
+	padding: 0 2% 1%;
+}
+.criterion.bar {
+	fill: hsla(258, 58%, 42%, 1);
+}
+
+.buttons {
+	margin-top: 18px;
+}
+.btn-link {
+	margin-top: -5px;
+	color: hsla(199, 98%, 48%, 1);
+}
+.btn-primary {
+	background: hsla(199, 98%, 48%, 1);
+}
+.btn-info {
+	background: hsla(262, 52%, 47%, 1);
+}
+
+.providers-label {
+	margin-top: 6px;
+}
+
+.btn-link.btn-remove {
+	color: hsla(0, 0%, 40%, 1);
+}
+.btn-remove:hover {
+	color: red;
+	cursor: pointer;
+}
